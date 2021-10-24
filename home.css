@@ -2,3 +2,31 @@
     margin: 0;
     padding: 0;
 }
+
+#navbar {
+    background-color: red;
+}
+
+#site-name {
+    color: black;
+}
+
+#home-link {
+    color: black;
+}
+
+#fav-link {
+    color: black;
+}
+
+#movie-link {
+    color: black;
+}
+
+#game-link {
+    color: black;
+}
+
+#log-sign-link {
+    color: black;
+}
