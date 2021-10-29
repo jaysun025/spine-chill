@@ -10,95 +10,78 @@
     background-color: rgb(0, 0, 0);
 }
 
+.navbar-toggler {
+    background-color: darkred;
+}
+
 /* Individual Stytling Id's for Navbar Links */
 /* Also adding in text shaking when hovering */
 
 #site-name {
-    color: whitesmoke;
+    color: darkred;
+    font-family: 'Creepster', cursive;
 }
 
 #site-name:hover {
-    animation: shake 120ms infinite;
+    animation: shake 250ms infinite;
     animation-timing-function: linear;
-}
-
-@keyframes shake {
-    0% { transform: rotate(2deg); }
-    50% { transform: rotate(-2deg); }
-    100% { transform: rotate(2deg); }
 }
 
 #home-link {
-    color: whitesmoke;
+    color: darkred;
+    font-family: 'Creepster', cursive;
 }
 
 #home-link:hover {
-    animation: shake 120ms infinite;
+    animation: shake 250ms infinite;
     animation-timing-function: linear;
-}
-
-@keyframes shake {
-    0% { transform: rotate(2deg); }
-    50% { transform: rotate(-2deg); }
-    100% { transform: rotate(2deg); }
 }
 
 #fav-link {
-    color: whitesmoke;
+    color: darkred;
+    font-family: 'Creepster', cursive;
 }
 
 #fav-link:hover {
-    animation: shake 120ms infinite;
+    animation: shake 250ms infinite;
     animation-timing-function: linear;
-}
-
-@keyframes shake {
-    0% { transform: rotate(2deg); }
-    50% { transform: rotate(-2deg); }
-    100% { transform: rotate(2deg); }
 }
 
 #movie-link {
-    color: whitesmoke;
+    color: darkred;
+    font-family: 'Creepster', cursive;
 }
 
 #movie-link:hover {
-    animation: shake 120ms infinite;
+    animation: shake 250ms infinite;
     animation-timing-function: linear;
-}
-
-@keyframes shake {
-    0% { transform: rotate(2deg); }
-    50% { transform: rotate(-2deg); }
-    100% { transform: rotate(2deg); }
 }
 
 #game-link {
-    color: whitesmoke;
+    color: darkred;
+    font-family: 'Creepster', cursive;
 }
 
 #game-link:hover {
-    animation: shake 120ms infinite;
+    animation: shake 250ms infinite;
     animation-timing-function: linear;
-}
-
-@keyframes shake {
-    0% { transform: rotate(2deg); }
-    50% { transform: rotate(-2deg); }
-    100% { transform: rotate(2deg); }
 }
 
 #log-sign-link {
-    color: whitesmoke;
+    color: darkred;
+    font-family: 'Creepster', cursive;
 }
 
 #log-sign-link:hover {
-    animation: shake 120ms infinite;
+    animation: shake 250ms infinite;
     animation-timing-function: linear;
 }
 
 @keyframes shake {
-    0% { transform: rotate(2deg); }
-    50% { transform: rotate(-2deg); }
-    100% { transform: rotate(2deg); }
+    0% { transform: skewX(20deg); }
+    25% { transform: skewX(-20deg); }
+    50% { transform: skewX(20deg); }
+    75% { transform: skewX(-20deg); }
+    100% { transfrom: skewX(20deg); }
 }
+
