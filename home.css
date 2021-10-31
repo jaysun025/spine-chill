@@ -120,13 +120,15 @@ h1 {
 
 /* MOVIE OBESSION SECTION */
 
-#movie-obession {
-    background-color: gray;
+#movie-obsession {
+    background-image: url(/images/obsession-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; top: 1600px;
     height: 75vh;
     padding-bottom: 150px;
 }
 
-#about-movie-obession {
+#about-movie-obsession {
     text-align: center;
     margin: 70px 200px;
     font-size: 18px;
@@ -135,7 +137,7 @@ h1 {
     font-family: 'Ceviche One', crusive;
 }
 
-#movie-obession-image {
+#movie-obsession-image {
     padding-top: 80px;
     padding-left: 20px;
     margin: 0px;
@@ -143,13 +145,15 @@ h1 {
 
 /* GAME OBESSION SECTION */
 
-#game-obession {
-    background-color: gray;
+#game-obsession {
+    background-image: url(/images/obsession-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
     height: 120vh;
     padding-top: 150px;
 }
 
-#about-game-obession {
+#about-game-obsession {
     text-align: center;
     margin: 70px 200px;
     font-size: 18px;
@@ -158,7 +162,7 @@ h1 {
     font-family: 'Ceviche One', crusive;
 }
 
-#game-obession-image {
+#game-obsession-image {
     padding-top: 80px;
     padding-left: 20px;
     margin: 0px;
