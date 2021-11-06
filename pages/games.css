@@ -92,3 +92,10 @@
     75% { transform: skewX(-20deg); }
     100% { transfrom: skewX(20deg); }
 }
+
+/* GAMES TITLE AND BACKGROUND IMAGE */
+
+#games-title {
+    text-align: center;
+    font-family: 'Press Start 2p', cursive;
+}
