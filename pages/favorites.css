@@ -96,7 +96,10 @@
 /* FAVORITES TITLE BANNER SECTION */
 
 #favorites-title {
-    background-color: black;
+    background-image: url(/images/favorites-title-bg.png);
+    background-size: cover; height: 100vh; width: 98
+    9vw;
+    background-repeat: no-repeat;
     text-align: center;
     color: blanchedalmond;
     font-family: 'Eater', cursive;
