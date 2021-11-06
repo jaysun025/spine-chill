@@ -92,3 +92,16 @@
     75% { transform: skewX(-20deg); }
     100% { transfrom: skewX(20deg); }
 }
+
+/* FAVORITES TITLE BANNER SECTION */
+
+#favorites-title {
+    background-color: black;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Eater', cursive;
+}
+
+#title {
+    font-size: 70px;
+}
