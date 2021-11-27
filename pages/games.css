@@ -99,6 +99,9 @@
     text-align: center;
     font-family: 'Press Start 2p', cursive;
     padding: 20px;
+    background-image: url(/images/game-bg.png);
+    background-size: cover; height: 100vh; width: 99vw;
+    background-repeat: no-repeat;
 }
 
 #title {
