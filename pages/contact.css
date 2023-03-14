@@ -103,7 +103,7 @@
     font-size: 80px;
 }
 
-main{
+body{
     background-color: black;
     backface-visibility: visible;
 }
