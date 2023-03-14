@@ -2,16 +2,22 @@
 <html lang="en">
 
 <head>
+    <text id="gameover">GAME OVER</text>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log In/Sign Up</title>
+    <title>Evening of the Dead</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="login-signup.css">
+    <link rel="stylesheet" href="EveningoftheDead.css">
+    <audio>
+        <source src="ZombieCrunch.m4a" id="Crunch" type="audio/m4a">
+    </audio>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
     </style>
+    <script src="EveningoftheDead.js" defer></script>
 </head>
 
 <body>
@@ -27,16 +33,13 @@
                     <a href="/home.html" class="nav-link" id="home-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/pages/favorites.html" class="nav-link" id="fav-link">Favorites</a>
+                    <a href="/pages/reviews.html" class="nav-link" id="reviews-link">Reviews</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/pages/games.html" class="nav-link" id="game-link">Games</a>
+                    <a href="/pages/EveningoftheDead.html" class="nav-link" id="EveningoftheDead-link">Evening of the Dead</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/pages/movies.html" class="nav-link" id="movie-link">Movies</a>
-                </li>
-                <li class="nav-item">
-                    <a href="/pages/login-signup.html" class="nav-link" id="log-sign-link">Log In/Sign Up</a>
+                    <a href="/pages/contact.html" class="nav-link" id="contact-link">Contact</a>
                 </li>
             </ul>
     </nav>
@@ -54,10 +57,17 @@
         crossorigin="anonymous"></script>
 
         <!-- TITLE HEADER BELOW NAVBAR -->
-
-        <div id="login-signup-title">
-            <h1 id="title">LOG IN OR SIGN YOUR SOUL AWAY</h1>
-        </div>
+        <header>Evening of the Dead</header>
+        <main>
+            <canvas id='game'></canvas>
+            <div id='zomboy'></div>
+            <div id='survivor'></div>
+        </main>
+        <footer>
+            <button id='start'>Start</button>  <button id='restart' type='reset'>Reset</button>
+            <h3>A ZOMBIE OUTBREAK HAS OCCURED... AGAIN. USE A AND D TO DODGE THE ZOMBIES</h3>
+            <span id= 'minutes'>00</span>:<span id='seconds'>00</span>
+        </footer>
 </body>
 
 </html>

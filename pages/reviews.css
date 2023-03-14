@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styling Id */
+
+#navbar {
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar-toggler {
+  background-color: darkred;
+}
+
+/* Individual Stytling Id's for Navbar Links */
+/* Also adding in text shaking when hovering */
+
+#site-name {
+  color: darkred;
+  font-family: 'Creepster', cursive;
+  font-size: 30px;
+}
+
+#site-name:hover {
+  animation: shake 250ms infinite;
+  animation-timing-function: linear;
+}
+
+#home-link {
+  color: darkred;
+  font-family: 'Creepster', cursive;
+  font-size: 20px;
+}
+
+#home-link:hover {
+  animation: shake 250ms infinite;
+  animation-timing-function: linear;
+}
+
+#review-link {
+  color: darkred;
+  font-family: 'Creepster', cursive;
+  font-size: 20px;
+}
+
+#reviews-link:hover {
+  animation: shake 250ms infinite;
+  animation-timing-function: linear;
+}
+
+#readings-link {
+  color: darkred;
+  font-family: 'Creepster', cursive;
+  font-size: 20px;
+}
+
+#readings-link:hover {
+  animation: shake 250ms infinite;
+  animation-timing-function: linear;
+}
+
+#EveningoftheDead-link {
+  color: darkred;
+  font-family: 'Creepster', cursive;
+  font-size: 20px;
+}
+
+#EveningoftheDead-link:hover {
+  animation: shake 250ms infinite;
+  animation-timing-function: linear;
+}
+
+#contact-link {
+  color: darkred;
+  font-family: 'Creepster', cursive;
+  font-size: 20px;
+}
+
+#contact-link:hover {
+  animation: shake 250ms infinite;
+  animation-timing-function: linear;
+}
+
+/* Using skewX works better than rotate so it makes the transition better to smaller screens. */
+
+@keyframes shake {
+  0% {
+    transform: skewX(20deg);
+  }
+
+  25% {
+    transform: skewX(-20deg);
+  }
+
+  50% {
+    transform: skewX(20deg);
+  }
+
+  75% {
+    transform: skewX(-20deg);
+  }
+
+  100% {
+    transfrom: skewX(20deg);
+  }
+}
+
+
+/* REVIEW LIST AND GRID VIEWS */
+
+body {
+  background-image: url(/images/ghostfaces.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* FILTER */
+
+.filter-list {
+  text-align: center;
+  padding: 5rem 0;
+  text-transform: uppercase;
+  width: 100%;
+  font-family: 'Creepster', cursive;
+  font-size: 1em;
+}
+
+.filter-list h1 {
+  display: block;
+}
+
+.filter-list .btn {
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0;
+}
+
+.filter-list .btn.active {
+  background: black;
+  color: #fff;
+}
+
+/* GALLERY DISPLAY AND ANIMATIONS */
+
+.product {
+  transition: 0.5s;
+}
+
+.product:hover {
+  -ms-transform: scale(1.25, 1.25);
+  -webkit-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
+  z-index: 9;
+}
+
+.product img {
+  width: 100%;
+  height: 50%;
+}
+
+.product .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0.5em 1em;
+  margin: 0 0 0.5em 0;
+  border-bottom: 2px solid black;
+  background-color: crimson;
+}
+
+.product .info .name {
+  flex: 2 0 0;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: black;
+  font-family: 'Creepster', cursive;
+}
+
+.product .info .year {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: black;
+}
+
+/* GALLERY ITEM POPUPS */
+
+.bg-overlay {
+  position: fixed;
+  z-index: 998;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .7);
+  width: 100%;
+  height: 100%;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+#thing-popup {
+  position: relative;
+  z-index: 999;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  width: 90%;
+  height: auto;
+  background: #fff;
+  border-radius: 5px;
+  font-size: .8rem;
+  opacity: .9;
+}
+
+#incant-popup {
+  position: relative;
+  z-index: 999;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  width: 90%;
+  height: auto;
+  background: #fff;
+  border-radius: 5px;
+  font-size: .8rem;
+  opacity: .9;
+}
+
+#smile-popup {
+  position: relative;
+  z-index: 999;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  width: 90%;
+  height: auto;
+  background: #fff;
+  border-radius: 5px;
+  font-size: .8rem;
+  opacity: .9;
+}
+
+#revil-popup {
+  position: relative;
+  z-index: 999;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  width: 90%;
+  height: auto;
+  background: #fff;
+  border-radius: 5px;
+  font-size: .8rem;
+  opacity: .9;
+}
+
+#silhil-popup {
+  position: relative;
+  z-index: 999;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  width: 90%;
+  height: auto;
+  background: #fff;
+  border-radius: 5px;
+  font-size: .8rem;
+  opacity: .9;
+}
+
+#outlast-popup {
+  position: relative;
+  z-index: 999;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  width: 90%;
+  height: auto;
+  background: #fff;
+  border-radius: 5px;
+  font-size: .8rem;
+  opacity: .9;
+}
+
+/* ALLOWS POPUP TO BE CLOSED */
+
+.optin-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 999;
+  color: #000;
+  font-size: 1rem;
+  text-decoration: none;
+}

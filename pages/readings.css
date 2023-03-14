@@ -39,46 +39,46 @@
     animation-timing-function: linear;
 }
 
-#fav-link {
+#reviews-link {
     color: darkred;
     font-family: 'Creepster', cursive;
     font-size: 20px;
 }
 
-#fav-link:hover {
+#reviews-link:hover {
     animation: shake 250ms infinite;
     animation-timing-function: linear;
 }
 
-#movie-link {
+#readings-link {
     color: darkred;
     font-family: 'Creepster', cursive;
     font-size: 20px;
 }
 
-#movie-link:hover {
+#readings-link:hover {
     animation: shake 250ms infinite;
     animation-timing-function: linear;
 }
 
-#game-link {
+#voices-link {
     color: darkred;
     font-family: 'Creepster', cursive;
     font-size: 20px;
 }
 
-#game-link:hover {
+#voices-link:hover {
     animation: shake 250ms infinite;
     animation-timing-function: linear;
 }
 
-#log-sign-link {
+#contact-link {
     color: darkred;
     font-family: 'Creepster', cursive;
     font-size: 20px;
 }
 
-#log-sign-link:hover {
+#contact-link:hover {
     animation: shake 250ms infinite;
     animation-timing-function: linear;
 }
@@ -91,4 +91,16 @@
     50% { transform: skewX(20deg); }
     75% { transform: skewX(-20deg); }
     100% { transfrom: skewX(20deg); }
+}
+
+/* GAMES TITLE AND BACKGROUND IMAGE */
+
+#readings-title {
+    text-align: center;
+    font-family: 'Press Start 2p', cursive;
+    padding: 20px;
+}
+
+#title {
+    font-size: 80px;
 }

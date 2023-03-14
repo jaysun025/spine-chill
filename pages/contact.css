@@ -39,46 +39,46 @@
     animation-timing-function: linear;
 }
 
-#fav-link {
+#reviews-link {
     color: darkred;
     font-family: 'Creepster', cursive;
     font-size: 20px;
 }
 
-#fav-link:hover {
+#reviews-link:hover {
     animation: shake 250ms infinite;
     animation-timing-function: linear;
 }
 
-#movie-link {
+#readings-link {
     color: darkred;
     font-family: 'Creepster', cursive;
     font-size: 20px;
 }
 
-#movie-link:hover {
+#readings-link:hover {
     animation: shake 250ms infinite;
     animation-timing-function: linear;
 }
 
-#game-link {
+#EveningoftheDead-link {
     color: darkred;
     font-family: 'Creepster', cursive;
     font-size: 20px;
 }
 
-#game-link:hover {
+#EveningoftheDead-link:hover {
     animation: shake 250ms infinite;
     animation-timing-function: linear;
 }
 
-#log-sign-link {
+#contact-link {
     color: darkred;
     font-family: 'Creepster', cursive;
     font-size: 20px;
 }
 
-#log-sign-link:hover {
+#contact-link:hover {
     animation: shake 250ms infinite;
     animation-timing-function: linear;
 }
@@ -93,17 +93,17 @@
     100% { transfrom: skewX(20deg); }
 }
 
-/* FAVORITES TITLE BANNER SECTION */
-
-#favorites-title {
-    background-image: url(/images/favorites-title-bg.png);
-    background-size: cover; height: 100vh; width: 99vw;
-    background-repeat: no-repeat;
+#contact-title {
     text-align: center;
-    color: blanchedalmond;
-    font-family: 'Eater', cursive;
+    font-family: 'Press Start 2p', cursive;
+    padding: 20px;
 }
 
 #title {
-    font-size: 70px;
+    font-size: 80px;
+}
+
+main{
+    background-color: black;
+    backface-visibility: visible;
 }

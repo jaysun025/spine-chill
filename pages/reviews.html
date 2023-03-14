@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="reviews.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+  </style>
+  <script src="reviews.js" async="false"></script>
+</head>
+
+<body>
+
+  <!-- Bootstrap Navbar setup -->
+  <nav class="navbar navbar-expand-sm" id="navbar">
+    <a href="/home.html" class="navbar-brand" id="site-name">SPINE CHILL</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="/home.html" class="nav-link" id="home-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="/pages/reviews.html" class="nav-link" id="review-link">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a href="/pages/EveningoftheDead.html" class="nav-link" id="EveningoftheDead-link">Evening of the
+            Dead</a>
+        </li>
+        <li class="nav-item">
+          <a href="/pages/contact.html" class="nav-link" id="contact-link">Contact</a>
+        </li>
+      </ul>
+  </nav>
+
+  <!-- Bootstrap guts to make drop down menu in phone mode -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!-- TITLE AND GALLERY BELLOW NAVBAR -->
+
+  <div class="container">
+    <div class="row">
+      <div class="filter-list">
+        <h1>REVIEWS</h1>
+        <button class="btn btn-default filter-button active" data-filter="all">All</button>
+        <button class="btn btn-default filter-button" data-filter="movies">Movies</button>
+        <button class="btn btn-default filter-button" data-filter="games">Games</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product filter movies">
+        <a href="#thing-popup">
+          <img src="/images/theThing.jpg" title="The Thing" alt="The Thing">
+        </a>
+        <div class="info">
+          <div class="name">
+            The Thing
+          </div>
+          <div class="year">
+            1982
+          </div>
+        </div>
+        <div class="bg-overlay" id="thing-popup">
+          <p>
+            One of my favorite movies of all time John Carpenters The Thing is a cult classic and masterclass of sci-fi
+            horror. Starring Kurt Russel, Keith David, and Wilford Brimley among the amazing cast. Able to walk a line
+            between a kind of "who done it" mystery and some of the most gruesome body horror. Known for its amazing
+            practical effects and story The Thing is cemented in time as one of the best.
+          </p>
+          <a href="#" class="optin-close">&times;</a>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product filter movies">
+        <a href="#incant-popup">
+          <img src="/images/incantation.jpg" title="Incantation" alt="Incantation">
+        </a>
+        <div class="info">
+          <div class="name">
+            Incantation
+          </div>
+          <div class="year">
+            2022
+          </div>
+        </div>
+        <div class="bg-overlay" id="incant-popup">
+          <p>
+            Being a fan of found footage I'm happy to say this one does take a very interesting turn right out the gate.
+            This Chinese Netflix feature doesn't boast the best critic review scores but I applaud it's brave attempt to
+            refresh the found footage genre. I can't say too much because it well spoil the whole movie but it allows
+            the viewer to take a more active part in the movie. I really hope people more people give it a chance
+            because this might be one of my favorite found footage movies at this moment.
+          </p>
+          <a href="#" class="optin-close">&times;</a>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product filter movies">
+        <a href="#smile-popup">
+          <img src="/images/smile.png" title="Smile" alt="Smile">
+        </a>
+        <div class="info">
+          <div class="name">
+            Smile
+          </div>
+          <div class="year">
+            2022
+          </div>
+        </div>
+        <div class="bg-overlay" id="smile-popup">
+          <p>
+            What's worse that being hunted by an unkillable omnipresent entity that only you can see? Well if it smiled
+            of course. Smile is a freaking ride and a half in terms of pace and presentation. It doesn't feel like it
+            wastes the viewers time allowing you just enough info to want to know more. While wearing it's message on
+            its sleeve seems to elevate the events that take place in the movie. Be ready to face that which you never
+            want to in… Smile.
+          </p>
+          <a href="#" class="optin-close">&times;</a>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product filter games">
+        <a href="#revil-popup">
+          <img src="/images/residentevilremake.png" title="Resident Evil" alt="Resident Evil">
+        </a>
+        <div class="info">
+          <div class="name">
+            Resident Evil
+          </div>
+          <div class="year">
+            1996
+          </div>
+        </div>
+        <div class="bg-overlay" id="revil-popup">
+          <p>
+            The game that many arguably say put survival horror on the map Resident Evil. A classic by all means the
+            original has cemented itself in my mind. Due to some of the best worst voice acting, generally creepy
+            environments, and a whole host of monsters. Now almost 20 years old I love how this game has stood the test
+            of time and remains one of the best in the genre. Thanks to a fantastic community of modders and game
+            creators in their own right, allowing this game to adapt and change through the years and stay relevant. The
+            remake of Resident Evil is a masterclass in building off what's already there, adding more challenges and
+            fun to be had.
+          </p>
+          <a href="#" class="optin-close">&times;</a>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product filter games">
+        <a href="#silhil-popup">
+          <img src="/images/silenthill2.jpg" title="Silent Hill 2" alt="Silent Hill 2">
+        </a>
+        <div class="info">
+          <div class="name">
+            Silent Hill 2
+          </div>
+          <div class="year">
+            2001
+          </div>
+        </div>
+        <div class="bg-overlay" id="silhil-popup">
+          <p>
+            This. Freaking. Game. Oh man, if you want to know fear boot up Silent Hill 2 turn off the lights and make
+            sure you're alone. Younger me did this and had nightmares for several days afterwards, it was worth it.
+            Coming out for PS2 this game is a masterclass of everything that makes survival horror great. Wandering
+            around a town covered in perpetual fog only able to see a few feet in front of you. Not only is Silent Hill
+            based on a real place, (look it up it's crazy), everything from what I just described to the story, sound
+            design, graphics, control style, freaking everything is amazing. If you're a true fan of survival horror and
+            haven't played this game. Be ashamed, just be very ashamed, than play the god damn game. It's had rereleases
+            for modern consoles and they're remaking it with modern technology. Play. This. Game.
+          </p>
+          <a href="#" class="optin-close">&times;</a>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product filter games">
+        <a href="#outlast-popup">
+          <img src="/images/outlast.jpg" title="Outlast" alt="Outlast">
+        </a>
+        <div class="info">
+          <div class="name">
+            Outlast
+          </div>
+          <div class="year">
+            2013
+          </div>
+        </div>
+        <div class="bg-overlay" id="outlast-popup">
+          <p>
+            Now I'm not a huge fan of games that don't let you defend yourself in spooky situations. It just doesn't
+            make sense to me. If I was stuck in an asylum that was running experiments on mentally ill I'd pick up a bit
+            of wood or something. Either way Outlast is a game that doesn't allow you to defend yourself but I still had
+            a good time playing. Good spooks and a pretty decent story really help this game shine through. As you make
+            your way through the asylum and learn more about what's happening it shows that even the people who are
+            trying to kill you have more going on than just being crazy. I'd say if you enjoy sneaking a lot more than
+            fighting while piecing together a mystery this is the game for you.
+          </p>
+          <a href="#" class="optin-close">&times;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
