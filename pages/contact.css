@@ -124,9 +124,17 @@ body{
    max-width: 100%;
 }
 
+h1 {
+    font-family: "Creepster", cursive;
+    color: darkred;
+}
+
 h2 {
     margin: 5%;
     font-family: "Creepster", cursive;
     color: darkred;
 }
-    
+
+a{
+    color: darkred;
+}
