@@ -99,9 +99,9 @@ h1 {
     text-align: center;
     padding: 30px;
     margin: 0;
-    font-family: 'IM Fell English SC', cursive;
+    font-family: 'Creepster', cursive;
     background-color: black;
-    color: rgb(95, 4, 95);
+    color: darkred;
 }
 
 html, body {
@@ -288,14 +288,14 @@ html, body {
     background-position:90%;
     background-repeat: no-repeat;
     background-size: 45%;
-    color: rgb(95, 4, 95);
 }
 
 #text {
     padding: 5%;
-    font-family: 'IM Fell English SC', cursive;
+    font-family: 'Creepster', cursive;
     font-size: 30px;
     margin: 0px;
+    color: darkred;
 }
 
 
