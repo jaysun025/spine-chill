@@ -119,12 +119,13 @@ body{
 
 #info {
    position: absolute;
-   padding-left: 50%;
-   padding-top: 10%;
+   margin-left: 50%;
+   margin-top: 10%;
+   max-width: 100%;
 }
 
 h2 {
-    margin: 10%;
+    margin: 5%;
     font-family: "Creepster", cursive;
     color: darkred;
 }
