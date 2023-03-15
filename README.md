@@ -1,5 +1,5 @@
 SpineChill
-SpineChill is going to be used to show off some of my voice acting, reading stories and recording them, reviews for movies, games, and books that I loved or hated. 
+SpineChill is going to be used to show off my understanding of vanilla JS HTML and CSS. Going to attach to profile and other sources to showcase.  
  
 Site Pages
 1. Home Page: Talks a bit about me, a photo of me, and somethings I love in horror. 
