@@ -204,6 +204,8 @@ body {
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
+  background: lightgray;
+  color: black;
 }
 
 :target {
@@ -221,7 +223,6 @@ body {
   padding: 2rem;
   width: 90%;
   height: auto;
-  background: #fff;
   border-radius: 5px;
   font-size: .8rem;
   opacity: .9;
