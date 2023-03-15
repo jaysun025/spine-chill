@@ -9,8 +9,8 @@ Site Pages
 
 NOTE:
 1. Find way to connect it to current jasonthulen.com site 
-2. Connect linkedin profile to contact page
-3. Find other sites people can use to contact me
+2. Find other sites people can use to contact me
+3. Soft edge image on homepage and header for homepage
 
 
 
