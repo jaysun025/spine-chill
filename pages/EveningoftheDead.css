@@ -104,22 +104,21 @@ html, body {
 
 header, footer {
    text-align: center;
-   color: crimson;
+   color: darkred;
+   font-family: "Creepster", cursive;
 }
 
 header {
-   font-family: 'Hanalei Fill';
    font-size: 50px;
 }
 
 h3 {
-   margin: 0;
+   margin: 1%;
    padding: 0;
 }
 
 footer {
    font-size: 20px;
-   font-family: 'Langar';
 }
    
 #game{
