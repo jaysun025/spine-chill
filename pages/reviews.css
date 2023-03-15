@@ -183,10 +183,10 @@ body {
 }
 
 .product .info .year {
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight: 600;
   color: darkred;
-  font-style: "Creepster", cursive;
+  font-family: "Creepster", cursive;
 }
 
 /* GALLERY ITEM POPUPS */
